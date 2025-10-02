@@ -1,6 +1,6 @@
 # Machines Animées
 
-## Cours transversal HEAD – Genève
+## Cours transversal, Pool Numérique @ HEAD – Genève
 
 2025–26 semèstre d'automne
 Vendredis, 14:30 – 17:30
