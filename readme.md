@@ -9,9 +9,8 @@ Vendredis, 14:30 – 17:30
 
 ## SYLLABUS:
 
-### Session #1 — Introduction
-### Session #2 — Partage portfolio ;                                 
-              Bases d’électronique, code
+Session #1 — Introduction
+Session #2 — Partage portfolio, bases d’électronique, code
 Session #3 — Arduino : inputs et outputs
 Session #4 — Capteurs et émetteurs
 Session #5 — Moteurs et shields
