@@ -1,3 +1,4 @@
+```
 // Simple Blink script for Arduino
 
 void setup() {  
@@ -12,3 +13,4 @@ void loop() {
   digitalWrite(13, LOW);  
   delay(100);  
 }  
+```
