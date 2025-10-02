@@ -26,7 +26,7 @@ La présence n’est pas obligatoire mais fortement recommandée.
 ## SYLLABUS
 
 Session #1 — Introduction  
-
+[Slides Session #1](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%231/Machines%20Spirituelles_compressed.pdf)
 
 Session #2 — Partage portfolio, bases d’électronique, code  
 Session #3 — Arduino : inputs et outputs  
