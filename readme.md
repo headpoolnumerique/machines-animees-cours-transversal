@@ -9,16 +9,6 @@ Vendredis, 14:30 – 17:30
 
 ——
 
-## SYLLABUS
-
-Session #1 — Introduction  
-Session #2 — Partage portfolio, bases d’électronique, code  
-Session #3 — Arduino : inputs et outputs  
-Session #4 — Capteurs et émetteurs  
-Session #5 — Moteurs et shields  
-Sessions #6-11 — Labo ; travail en duo  
-Session #12 — Présentation et goûter de Noël  
-
 ## ÉVALUATION
 
 Le projet final sera évalué en fonction de son rapport à la thématique. Les connaissances acquises durant le cours devront s’y refléter.
@@ -31,3 +21,17 @@ ou un projet solo, plus complex et à long terme (par exemple un projet de dipl�
 ## PRÉSENCE
 
 La présence n’est pas obligatoire mais fortement recommandée.
+
+
+## SYLLABUS
+
+Session #1 — Introduction  
+
+
+Session #2 — Partage portfolio, bases d’électronique, code  
+Session #3 — Arduino : inputs et outputs  
+Session #4 — Capteurs et émetteurs  
+Session #5 — Moteurs et shields  
+Sessions #6-11 — Labo ; travail en duo  
+Session #12 — Présentation et goûter de Noël  
+
