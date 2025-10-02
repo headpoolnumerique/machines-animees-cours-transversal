@@ -1,13 +1,16 @@
-Machines Animées
-Cours transversal HEAD – Genève
+# Machines Animées
+
+## Cours transversal HEAD – Genève
 
 2025–26 semèstre d'automne
 Vendredis, 14:30 – 17:30
 
-SYLLABUS:
+——
 
-Session #1 — Introduction
-Session #2 — Partage portfolio ;                                 
+## SYLLABUS:
+
+### Session #1 — Introduction
+### Session #2 — Partage portfolio ;                                 
               Bases d’électronique, code
 Session #3 — Arduino : inputs et outputs
 Session #4 — Capteurs et émetteurs
