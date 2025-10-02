@@ -1,5 +1,7 @@
 # Machines Animées
 
+![Image Machines Animées](https://vjnks.com/media/pages/projects/latent-intimacies/a790ed6486-1758787268/latent_intimacies_red_book.jpg)
+
 ## Cours transversal HEAD – Genève
 
 2025–26 semèstre d'automne
