@@ -27,7 +27,8 @@ La présence n’est pas obligatoire mais fortement recommandée.
 
 Session #1 — Introduction  
 [Slides Session #1](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%231/Machines%20Spirituelles_compressed.pdf) | 
-[Code Session #1](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%231)
+[Code Session #1](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%231)  
+[Fritzing : (optionnel) Outil gratuit pour visualiser des circuits](https://fritzing.org/)
 
 Session #2 — Partage portfolio, bases d’électronique, code  
 Session #3 — Arduino : inputs et outputs  
