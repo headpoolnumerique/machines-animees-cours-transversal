@@ -8,7 +8,7 @@ Les circuits analogiques et numériques sont deux types de circuits électriques
 - Circuit numérique : Les signaux numériques sont représentés sous forme de séquences de bits (0 et 1). Chaque valeur binaire est généralement associée à un niveau de tension spécifique, ce qui permet de représenter des informations de manière discrète.
 
 
-## 2.2 Différences entre un circuit analogique et numérique
+## 2.2 Arduino
 
 **Qu’est que c’est que un microcontrôleur?**
 
