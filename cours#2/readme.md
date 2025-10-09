@@ -47,3 +47,7 @@ La loi d'Ohm énonce que la tension (V) à travers un composant d'un circuit est
 - **R** représente la résistance en ohms (Ω).
 
 En d'autres termes, plus la tension est élevée, plus le courant sera élevé, à condition que la résistance reste constante. De même, si la résistance augmente, le courant diminuera pour une tension donnée.
+
+#### Comment lire un circuit de base et calculer la resistance pour un LED
+
+[LED circuit](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/basic_circuit.png?raw=true)
