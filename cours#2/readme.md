@@ -29,3 +29,21 @@ Un Arduino est un outil de prototypage électronique qui permet de créer des pr
 4. **Téléchargement du code** : Une fois que vous avez écrit votre programme dans l'IDE Arduino, vous le compilez (pour le convertir en langage machine) et le téléchargez sur la carte Arduino via un câble USB. Le microcontrôleur exécute ensuite le programme.
 5. **Broches d'entrée/sortie** : Les cartes Arduino ont un certain nombre de broches d'entrée/sortie numériques et analogiques que vous pouvez utiliser pour connecter des composants électroniques. Vous pouvez configurer ces broches pour lire des signaux provenant de capteurs ou pour contrôler des actionneurs tels que des moteurs ou des LEDs.
 6. **Alimentation** : Les cartes Arduino sont alimentées soit par le port USB de l'ordinateur lors de la programmation, soit par une source d'alimentation externe.
+
+–  
+
+### 2.3 La loi d'Ohm
+
+![Electricite](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/schema-electronique3.png?raw=true)
+
+La loi d'Ohm énonce que la tension (V) à travers un composant d'un circuit est directement proportionnelle au courant (I) qui le traverse, et cette relation est inversement proportionnelle à la résistance (R) de ce composant. Mathématiquement, cela peut être exprimé de la manière suivante :
+
+![Loi d'Ohm](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/Loi_d'Ohm.png?raw=true)
+
+### V = I * R
+
+- **V** représente la tension en volts (V).
+- **I** représente le courant en ampères (A).
+- **R** représente la résistance en ohms (Ω).
+
+En d'autres termes, plus la tension est élevée, plus le courant sera élevé, à condition que la résistance reste constante. De même, si la résistance augmente, le courant diminuera pour une tension donnée.
