@@ -1,4 +1,4 @@
-# Cours#2 : Bases d'électronique
+# Cours#2 : Bases d'électronique / Arduino
 
 ### 2.1 Différences entre circuits analogique et numérique
 
