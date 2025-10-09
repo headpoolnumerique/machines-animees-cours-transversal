@@ -10,6 +10,8 @@ Les circuits analogiques et numériques sont deux types de circuits électriques
 
 ## 2.2 Arduino
 
+![Arduino Uno](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/caracteristique_arduino.png)
+
 **Qu’est que c’est que un microcontrôleur?**
 
 Les microcontrôleurs sont des composants intégrés qui combinent un processeur, de la mémoire et des interfaces d'entrée/sortie. Ils sont utilisés pour contrôler des systèmes électroniques, des dispositifs embarqués, et des objets connectés.
