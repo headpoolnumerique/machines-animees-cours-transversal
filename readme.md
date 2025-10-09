@@ -5,7 +5,7 @@
 2025–26 semèstre d'automne
 Vendredis, 14:30 – 17:30
 
-![Image Machines Animées](https://vjnks.com/media/pages/projects/latent-intimacies/a790ed6486-1758787268/latent_intimacies_red_book.jpg)
+![Image Machines Animées](https://vjnks.com/media/pages/projects/latent-intimacies/e958333890-1758787222/latent_intimacies_cats.jpg)
 
 ——
 
