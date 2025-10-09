@@ -1,4 +1,4 @@
-### 2.1 Différences entre un circuit analogique et numérique
+## 2.1 Différences entre un circuit analogique et numérique
 
 ![circuit analogique vs numérique](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/difference%20analysis.jpg)
 
@@ -8,7 +8,7 @@ Les circuits analogiques et numériques sont deux types de circuits électriques
 - Circuit numérique : Les signaux numériques sont représentés sous forme de séquences de bits (0 et 1). Chaque valeur binaire est généralement associée à un niveau de tension spécifique, ce qui permet de représenter des informations de manière discrète.
 
 
-### 2.2 Différences entre un circuit analogique et numérique
+## 2.2 Différences entre un circuit analogique et numérique
 
 **Qu’est que c’est que un microcontrôleur?**
 
