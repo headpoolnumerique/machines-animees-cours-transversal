@@ -50,5 +50,5 @@ En d'autres termes, plus la tension est élevée, plus le courant sera élevé, 
 
 #### Comment lire un circuit de base et calculer la resistance pour un LED
 
-![LED circuit](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/basic_circuit.png?raw=true)
+![LED circuit](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/basic_circuit.jpg)
 ![Arduino Fritzing LED](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/arduino_led_circuit_pwm_pin.png?raw=true)
