@@ -1,6 +1,6 @@
 # Cours#2 : Bases d'électronique
 
-## 2.1 Différences entre un circuit analogique et numérique
+## 2.1 Différences entre circuits analogique et numérique
 
 ![circuit analogique vs numérique](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/difference%20analysis.jpg)
 
