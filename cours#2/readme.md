@@ -1,3 +1,5 @@
+## Différences entre un circuit analogique et numérique
+
 Les circuits analogiques et numériques sont deux types de circuits électriques utilisés pour traiter et transmettre des signaux électriques, mais ils diffèrent dans la manière dont ils manipulent ces signaux :  
 
 - Circuit analogique : Les signaux analogiques sont généralement représentés sous forme de courbes continues. Par exemple, une tension analogique varie en continu sur une plage de valeurs.  
