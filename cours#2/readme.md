@@ -1,6 +1,6 @@
 # Cours#2 : Bases d'électronique
 
-## 2.1 Différences entre circuits analogique et numérique
+### 2.1 Différences entre circuits analogique et numérique
 
 ![circuit analogique vs numérique](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/difference%20analysis.jpg)
 
@@ -11,7 +11,7 @@ Les circuits analogiques et numériques sont deux types de circuits électriques
 
 —  
 
-## 2.2 Arduino
+### 2.2 Arduino
 
 ![Arduino Uno](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/caracteristique_arduino.png)
   
