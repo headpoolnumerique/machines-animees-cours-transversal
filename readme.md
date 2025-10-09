@@ -31,8 +31,7 @@ Session #1 — Introduction
 [Fritzing : (optionnel) Outil pour 5e. pour visualiser des circuits](https://fritzing.org/)
 
 Session #2 — Partage portfolio, bases d’électronique, code  
-
-
+[Théorie Session #2](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/readme.md)  
 
 Session #3 — Arduino : inputs et outputs  
 Session #4 — Capteurs et émetteurs  
