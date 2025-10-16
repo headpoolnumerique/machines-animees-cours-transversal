@@ -66,22 +66,19 @@ void loop(){
 
 Un capteur de lumière consiste en une petite “résistance qui change avec la lumière”. Plus il y a de lumière, plus elle laisse passer le courant (sa résistance baisse).
 
-Installation (pont diviseur), en image mentale :  
+Installation (pont diviseur) en image mentale :  
 Une échelle entre + (Vcc) et – (GND). Au milieu de l’échelle, on prend la mesure (pin A0). Les deux “barreaux” de l’échelle sont :  
 
 — le capteur (qui change avec la lumière)  
 — une deuxième résistance fixe (par ex. 10 kΩ)  
 
-Tu peux mettre la LDR en haut et la résistance en bas, ou l’inverse :
-
 Comment choisir la résistance fixe ?
 Prendre 10 kΩ pour commencer. Si le capteur se situe surtout dans une ambiance donnée (studio, scène, dehors), choisir une valeur proche du capteur dans cette ambiance pour avoir une sensibilité correcte. (Pas besoin de maths : tester 4.7 kΩ, 10 kΩ, 47 kΩ et garder celle qui te donne une bonne variation.)
 
-Lecture côté Arduino :
+![capteur lumiere](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/light_sensor.png?raw=true)
 
 ```
 int v = analogRead(A0); // 0 (sombre) à 1023 (clair)
 ```
-![capteur lumiere](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/light_sensor.png?raw=true)
 
 
