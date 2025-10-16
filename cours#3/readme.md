@@ -132,7 +132,7 @@ void loop() {
 
 #### 3.3.1 Conditions IF - ELSE
 
-Structure:  
+Structure :  
 ```
 if (condition1) {
   // A
@@ -142,5 +142,33 @@ if (condition1) {
   // C (cas par défaut)
 }
 ```
+
+#### 3.3.2 Le port série (Serial) 
+
+**À quoi ça sert ?**
+À parler entre l’Arduino et l'ordinateur : afficher des messages, lire des commandes, régler des erreurs
+
+Initialisation :  
+```  
+void setup() {
+  Serial.begin(9600);   // 9600, 115200, etc. Doit correspondre au Moniteur Série
+}
+```
+
+Envoyer des messages vers l’ordinateur :  
+```
+Serial.print("Hello");
+Serial.println(valeur);   // println ajoute un retour à la ligne
+```
+
+#### 3.3.3 Fonction Map() 
+
+**À quoi ça sert ?**
+Transformer une valeur qui vit dans une plage A vers une plage B.  
+Ex : convertir 0–1023 (capteur analogique) en 0–255 (PWM LED).  
+
+Syntaxe (Arduino) :  
+```long map(long x, long in_min, long in_max, long out_min, long out_max);```
+
 
 
