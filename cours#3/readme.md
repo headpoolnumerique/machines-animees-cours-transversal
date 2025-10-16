@@ -63,7 +63,7 @@ void loop(){
 
 **3.2.2 Capteur de lumière - LDR (entrée analogique 0-1024)**
 
-Un capteru de lumière consiste en une petite “résistance qui change avec la lumière”. Plus il y a de lumière, plus elle laisse passer le courant (sa résistance baisse).
+Un capteur de lumière consiste en une petite “résistance qui change avec la lumière”. Plus il y a de lumière, plus elle laisse passer le courant (sa résistance baisse).
 
 Installation (pont diviseur), en image mentale :  
 Une échelle entre + (Vcc) et – (GND). Au milieu de l’échelle, on prend la mesure (pin A0). Les deux “barreaux” de l’échelle sont :  
