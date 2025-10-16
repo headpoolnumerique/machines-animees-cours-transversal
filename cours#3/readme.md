@@ -91,7 +91,7 @@ PWM OUT (pins avec un ~ —> luminosité variable) :
 ```analogWrite(9, 0–255);```  
 ⚠️ Pour une LED spécifiquement, la valeur est entre 0 et 255, pour les autres composants ça varie mais 0-1024 de manière générale. 
 
-![circuit complet](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_lsensor_led.png?raw=true)
+![circuit complet](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_light_led.png?raw=true)
 
 
 
