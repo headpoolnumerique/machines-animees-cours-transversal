@@ -4,10 +4,10 @@
 ### 3.1 Différents inputs et outputs arduino
 
 **En résumé:**  
-Digital IN lit 0/1 (LOW/HIGH)  
-Digital OUT écrit 0/1 (LOW/HIGH)  
-Analogique lit une tension (Valeur 0-1024)  
-PWM OUT écrit une moyenne de tension via commutation rapide (Valeur 0-1024)  
+***Digital IN*** lit 0/1 (LOW/HIGH)  
+***Digital OUT*** écrit 0/1 (LOW/HIGH)  
+***Analogique*** lit une tension (Valeur 0-1024)  
+***PWM OUT*** écrit une moyenne de tension via commutation rapide (Valeur 0-1024)  
 
 —
 
