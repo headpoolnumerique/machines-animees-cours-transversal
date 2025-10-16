@@ -12,18 +12,18 @@
 
 **~**  
 
-**Digital IN (entrée numérique)**
+**Digital IN (entrée numérique)**  
 Lit un état 0/1 (LOW/HIGH). Utilise pinMode(pin, INPUT/INPUT_PULLUP) + digitalRead(pin).  
 ⚠️ Nécessite souvent une résistance de pull-up/pull-down pour éviter un état flottant.  
 
-**Digital OUT (sortie numérique)**
+**Digital OUT (sortie numérique)**  
 Force un état 0/1 sur la broche: digitalWrite(pin, LOW/HIGH) après pinMode(pin, OUTPUT).  
 
-**Analogique (entrée analogique / ADC)**
+**Analogique (entrée analogique / ADC)**  
 Mesure une tension continue entre 0 V et Vref (souvent 5 V ou 3,3 V) et la convertit en valeur numérique (typ. 10 bits → 0–1023): analogRead(Ax).  
 Permet de lire capteurs de tension, potentiomètres, etc.  
 
-**PWM OUT (sortie PWM, pseudo-analogique)**
+**PWM OUT (sortie PWM, pseudo-analogique)**  
 Sortie numérique commutée très vite avec un rapport cyclique variable: analogWrite(pin, 0–255) sur pins PWM (~490/980 Hz selon carte).  
 Donne une moyenne équivalente à une tension analogique (utile pour LED, vitesse moteur). Ce n’est pas une vraie sortie DAC; pour une tension lisse, ajouter un filtre RC.  
 
