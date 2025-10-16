@@ -9,19 +9,19 @@ Digital IN lit 0/1, Digital OUT écrit 0/1, Analogique lit une tension, PWM OUT 
 —
 
 **Digital IN (entrée numérique)**
-Lit un état 0/1 (LOW/HIGH). Utilise pinMode(pin, INPUT/INPUT_PULLUP) + digitalRead(pin).
-⚠️ Nécessite souvent une résistance de pull-up/pull-down pour éviter un état flottant.
+Lit un état 0/1 (LOW/HIGH). Utilise pinMode(pin, INPUT/INPUT_PULLUP) + digitalRead(pin).  
+⚠️ Nécessite souvent une résistance de pull-up/pull-down pour éviter un état flottant.  
 
 **Digital OUT (sortie numérique)**
-Force un état 0/1 sur la broche: digitalWrite(pin, LOW/HIGH) après pinMode(pin, OUTPUT).
+Force un état 0/1 sur la broche: digitalWrite(pin, LOW/HIGH) après pinMode(pin, OUTPUT).  
 
 **Analogique (entrée analogique / ADC)**
-Mesure une tension continue entre 0 V et Vref (souvent 5 V ou 3,3 V) et la convertit en valeur numérique (typ. 10 bits → 0–1023): analogRead(Ax).
-Permet de lire capteurs de tension, potentiomètres, etc.
+Mesure une tension continue entre 0 V et Vref (souvent 5 V ou 3,3 V) et la convertit en valeur numérique (typ. 10 bits → 0–1023): analogRead(Ax).  
+Permet de lire capteurs de tension, potentiomètres, etc.  
 
 **PWM OUT (sortie PWM, pseudo-analogique)**
-Sortie numérique commutée très vite avec un rapport cyclique variable: analogWrite(pin, 0–255) sur pins PWM (~490/980 Hz selon carte).
-Donne une moyenne équivalente à une tension analogique (utile pour LED, vitesse moteur). Ce n’est pas une vraie sortie DAC; pour une tension lisse, ajouter un filtre RC.
+Sortie numérique commutée très vite avec un rapport cyclique variable: analogWrite(pin, 0–255) sur pins PWM (~490/980 Hz selon carte).  
+Donne une moyenne équivalente à une tension analogique (utile pour LED, vitesse moteur). Ce n’est pas une vraie sortie DAC; pour une tension lisse, ajouter un filtre RC.  
 
 —  
 
@@ -29,11 +29,13 @@ Donne une moyenne équivalente à une tension analogique (utile pour LED, vitess
   
 **3.2.1 Bouton (entrée digitale ON/OFF)**
 
-⚠️ Pour un boutton, il faut une resistance pull-up (ou pull-down) parce qu’une entrée Arduino, si elle n’est reliée à rien, elle “flotte”. Elle capte du bruit (EMI), des fuites, des charges parasites et oscille aléatoirement entre HIGH et LOW.
+⚠️ Pour un boutton, il faut une resistance pull-up (ou pull-down) parce qu’une entrée Arduino, si elle n’est reliée à rien, elle “flotte”. Elle capte du bruit (EMI), des fuites, des charges parasites et oscille aléatoirement entre HIGH et LOW.  
 
 ***OPTION #1***  
-Câblage “pull-up” interne (le plus simple) : bouton entre pin et GND, activer la résistance interne.
-→ pinMode(pin, INPUT_PULLUP);
+Câblage “pull-up” interne (le plus simple) : bouton entre pin et GND, activer la résistance interne.  
+→ pinMode(pin, INPUT_PULLUP);  
+
+![Bouton Int-Pull-Up](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_int_pullup.png?raw=true)
 
 ```
 void setup(){ pinMode(2, INPUT_PULLUP); }
@@ -41,12 +43,13 @@ void loop(){
   if(digitalRead(2)==LOW){ /* appuyé */ }
 }
 ```
-![Bouton Int-Pull-Up](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_int_pullup.png?raw=true)
 
 
 ***OPTION #2***
 Câblage “pull-down” externe : bouton entre Vcc et pin, résistance ~10 kΩ entre pin et GND.
 → pinMode(pin, INPUT); puis digitalRead(pin) vaut HIGH quand on appuie.
+
+![Bouton Int-Pull-Up](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_ext_pullup.png?raw=true)
 
 ```
 void setup(){ pinMode(2, INPUT); }
@@ -54,7 +57,6 @@ void loop(){
   if(digitalRead(2)==HIGH){ /* appuyé */ }
 }
 ```
-![Bouton Int-Pull-Up](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_ext_pullup.png?raw=true)
 
 
 **Qu’est que c’est que un Arduino?**
