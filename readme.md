@@ -34,6 +34,7 @@ Session #2 — Partage portfolio, bases d’électronique, code
 [Théorie Session #2](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/readme.md)  
 
 Session #3 — Arduino : inputs et outputs  
+[Théorie Session #2](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%233)  
 Session #4 — Capteurs et émetteurs  
 Session #5 — Moteurs et shields  
 Sessions #6-11 — Labo ; travail en duo  
