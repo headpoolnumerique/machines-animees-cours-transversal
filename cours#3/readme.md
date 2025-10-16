@@ -49,7 +49,7 @@ void loop(){
 ```
 
 
-***Montage OPTION #2***
+***Montage OPTION #2***  
 Câblage “pull-down” externe : bouton entre Vcc et pin, résistance ~10 kΩ entre pin et GND.
 → pinMode(pin, INPUT); puis digitalRead(pin) vaut HIGH quand on appuie.
 
