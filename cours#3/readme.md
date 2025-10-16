@@ -31,11 +31,11 @@ Donne une moyenne équivalente à une tension analogique (utile pour LED, vitess
 
 ### 3.2 Exemples
   
-#### 3.2.1 Bouton (entrée digitale ON/OFF)
+#### 3.2.1 Bouton (entrée numérique ON/OFF –> digitalRead)
 
 ⚠️ Pour un boutton, il faut une resistance pull-up (ou pull-down) parce qu’une entrée Arduino, si elle n’est reliée à rien, elle “flotte”. Elle capte du bruit (EMI), des fuites, des charges parasites et oscille aléatoirement entre HIGH et LOW.  
 
-***OPTION #1***  
+***Montage OPTION #1***  
 Câblage “pull-up” interne (le plus simple) : bouton entre pin et GND, activer la résistance interne.  
 → pinMode(pin, INPUT_PULLUP);  
 
@@ -49,7 +49,7 @@ void loop(){
 ```
 
 
-***OPTION #2***
+***Montage OPTION #2***
 Câblage “pull-down” externe : bouton entre Vcc et pin, résistance ~10 kΩ entre pin et GND.
 → pinMode(pin, INPUT); puis digitalRead(pin) vaut HIGH quand on appuie.
 
