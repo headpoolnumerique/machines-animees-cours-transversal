@@ -81,4 +81,18 @@ Prendre 10 kΩ pour commencer. Si le capteur se situe surtout dans une ambiance 
 int v = analogRead(A0); // 0 (sombre) à 1023 (clair)
 ```
 
+#### 3.2.3 LED ON/OFF + PWM
+
+Digital OUT (ON/OFF) : 
+```pinMode(9, OUTPUT); digitalWrite(LED,HIGH/LOW);```  
+—> Allume ou éteigne la LED  
+  
+PWM OUT (pins avec un ~ —> luminosité variable) :  
+```analogWrite(9, 0–255);```  
+⚠️ Pour une LED spécifiquement, la valeur est entre 0 et 255, pour les autres composants ça varie mais 0-1024 de manière générale. 
+
+![circuit complet](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_lsensor_led.png?raw=true)
+
+
+
 
