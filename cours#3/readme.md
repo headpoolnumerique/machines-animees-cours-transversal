@@ -3,7 +3,10 @@
 
 ### 3.1 Différents inputs et outputs arduino
 
-![circuit analogique vs numérique](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/difference%20analysis.jpg)
+**En résumé:**
+Digital IN lit 0/1, Digital OUT écrit 0/1, Analogique lit une tension, PWM OUT écrit une moyenne de tension via commutation rapide.
+
+—
 
 **Digital IN (entrée numérique)**
 Lit un état 0/1 (LOW/HIGH). Utilise pinMode(pin, INPUT/INPUT_PULLUP) + digitalRead(pin).
@@ -11,7 +14,6 @@ Lit un état 0/1 (LOW/HIGH). Utilise pinMode(pin, INPUT/INPUT_PULLUP) + digitalR
 
 **Digital OUT (sortie numérique)**
 Force un état 0/1 sur la broche: digitalWrite(pin, LOW/HIGH) après pinMode(pin, OUTPUT).
-⚠️ Tension = celle de la carte (5 V ou 3,3 V). Courant limité par broche (ordre de ~20 mA max ⇒ piloter des relais/LED puissantes via transistor).
 
 **Analogique (entrée analogique / ADC)**
 Mesure une tension continue entre 0 V et Vref (souvent 5 V ou 3,3 V) et la convertit en valeur numérique (typ. 10 bits → 0–1023): analogRead(Ax).
@@ -23,13 +25,37 @@ Donne une moyenne équivalente à une tension analogique (utile pour LED, vitess
 
 —  
 
-### 2.2 Arduino
-
-![Arduino Uno](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%232/images/caracteristique_arduino.png)
+### 3.2 Exemples
   
-**Qu’est que c’est que un microcontrôleur?**
+**3.2.1 Bouton (entrée digitale ON/OFF)**
 
-Les microcontrôleurs sont des composants intégrés qui combinent un processeur, de la mémoire et des interfaces d'entrée/sortie. Ils sont utilisés pour contrôler des systèmes électroniques, des dispositifs embarqués, et des objets connectés.
+⚠️ Pour un boutton, il faut une resistance pull-up (ou pull-down) parce qu’une entrée Arduino, si elle n’est reliée à rien, elle “flotte”. Elle capte du bruit (EMI), des fuites, des charges parasites et oscille aléatoirement entre HIGH et LOW.
+
+***OPTION #1***  
+Câblage “pull-up” interne (le plus simple) : bouton entre pin et GND, activer la résistance interne.
+→ pinMode(pin, INPUT_PULLUP);
+
+```
+void setup(){ pinMode(2, INPUT_PULLUP); }
+void loop(){
+  if(digitalRead(2)==LOW){ /* appuyé */ }
+}
+```
+![Bouton Int-Pull-Up](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_int_pullup.png?raw=true)
+
+
+***OPTION #2***
+Câblage “pull-down” externe : bouton entre Vcc et pin, résistance ~10 kΩ entre pin et GND.
+→ pinMode(pin, INPUT); puis digitalRead(pin) vaut HIGH quand on appuie.
+
+```
+void setup(){ pinMode(2, INPUT); }
+void loop(){
+  if(digitalRead(2)==HIGH){ /* appuyé */ }
+}
+```
+![Bouton Int-Pull-Up](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%233/images/button_ext_pullup.png?raw=true)
+
 
 **Qu’est que c’est que un Arduino?**
 
