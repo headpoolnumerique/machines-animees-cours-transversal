@@ -128,5 +128,19 @@ void loop() {
 
 }
 ```
+### 3.3 Conditions – Port Serial – Fonction MAP
+
+#### 3.3.1 Conditions IF - ELSE
+
+Structure:  
+```
+if (condition1) {
+  // A
+} else if (condition2) {
+  // B
+} else {
+  // C (cas par défaut)
+}
+```
 
 
