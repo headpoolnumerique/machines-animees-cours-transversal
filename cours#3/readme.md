@@ -4,6 +4,7 @@
 ### 3.1 Différents inputs et outputs arduino
 
 **En résumé:**  
+  
 — ***Digital IN*** lit 0/1 (LOW/HIGH)  
 — ***Digital OUT*** écrit 0/1 (LOW/HIGH)  
 — ***Analogique*** lit une tension (Valeur 0-1024)  
