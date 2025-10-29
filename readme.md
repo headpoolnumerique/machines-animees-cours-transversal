@@ -36,7 +36,9 @@ Session #2 — Partage portfolio, bases d’électronique, code
 Session #3 — Arduino : inputs et outputs  
 [Documentation Session #3](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%233)  
 
-Session #4 — Capteurs et émetteurs  
+Session #4 — Entrées analogiques et sorties 'analogiques' (~ - PWM), variables
+[Documentation Session #4](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%234)  
+
 Session #5 — Moteurs et shields  
 Sessions #6-11 — Labo ; travail en duo  
 Session #12 — Présentation et goûter de Noël  
