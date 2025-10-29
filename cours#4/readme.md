@@ -41,3 +41,22 @@ int compteur = 0;
 int compteur = 5;   // ❌ erreur dans la même portée
 compteur = 5;       // ✅ mise à jour correcte
 ```
+
+***Quelques types communs de variables*** 
+
+int — entier signé (Uno: 16 bits).
+```int compteur = 0;```
+
+bool — vrai/faux.
+```bool boutonAppuye = false;```
+
+char — un caractère (ou petit entier signé).
+```char lettre = 'A';```
+
+float — nombre à virgule (AVR ≈ 6–7 chiffres utiles).
+```float temperature = 23.5;```
+
+String — chaîne de texte dynamique (pratique mais peut fragmenter la RAM sur AVR).
+```String nom = "Arduino";```
+
+
