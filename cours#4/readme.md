@@ -1,6 +1,8 @@
 
 # Cours#4 : Buzzer (output PWM, ~) et potentiomètre (input analogique); Variables
 
+![Buzzer circuit Arduino](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%234/images/buzzer-circuit.png?raw=true)
+
 ### 4.1 Potentiomètre : Input analogique
 
 Mesure une tension continue entre 0 V et Vref (dans le cas d'Ardruino 5 V) et la convertit en valeur numérique (typ. 10 bits → 0–1023): analogRead(Ax). Permet de lire capteurs de tension, potentiomètres, etc.  
@@ -44,19 +46,19 @@ compteur = 5;       // ✅ mise à jour correcte
 
 ***Quelques types communs de variables*** 
 
-int — entier signé (Uno: 16 bits).
+**int** — entier signé (Uno: 16 bits).
 ```int compteur = 0;```
 
-bool — vrai/faux.
+**bool** — vrai/faux.
 ```bool boutonAppuye = false;```
 
-char — un caractère (ou petit entier signé).
+**char** — un caractère (ou petit entier signé).
 ```char lettre = 'A';```
 
-float — nombre à virgule (AVR ≈ 6–7 chiffres utiles).
+**float** — nombre à virgule (AVR ≈ 6–7 chiffres utiles).
 ```float temperature = 23.5;```
 
-String — chaîne de texte dynamique (pratique mais peut fragmenter la RAM sur AVR).
+**String** — chaîne de texte dynamique (pratique mais peut fragmenter la RAM sur AVR).
 ```String nom = "Arduino";```
 
 
