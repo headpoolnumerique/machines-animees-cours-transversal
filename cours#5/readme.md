@@ -14,7 +14,9 @@ Un ensemble de code réutilisable qu'apporte des fonctionnalités prêtes à l�
 ***Pourquoi utiliser une librairie Servo.h avec un servo ?***
 
 Parce qu’un servo n’a pas besoin d’un PWM “classique”, mais d’impulsions très précises (≈1–2 ms, toutes ~20 ms). Servo.h :
-génère ces impulsions au timing beaucoup plus régulier que delay() ou analogWrite()), et simplifie l'usage grâce à une série de fonctions pre-écrites : attach(), write(angle), writeMicroseconds(), detach(),
+génère ces impulsions au timing beaucoup plus régulier que delay() ou analogWrite()), et simplifie l'usage grâce à une série de fonctions pre-écrites : attach(), write(angle), writeMicroseconds(), detach() 
+
+Comment utiliser : File > examples > Servo > Sweep (puis customiser le code)  
 
 ***Comment inlcure une librairie ?***
 1) Reprendre depuis un code exemple : File > examples > [nom de la librairie] > [example souhaité]
@@ -34,4 +36,8 @@ Dans le code : #include <NomDeLaLibrairie.h>
 3) Installation manuelle
 Décompresse la librairie dans Documents/Arduino/libraries/[librairie]/
 Redémarre l’IDE si besoin, puis #include <NomDeLaLibrairie.h>.
+
+### 5.2 Moteur DC et transistor (semi-conducteur)
+
+
 
