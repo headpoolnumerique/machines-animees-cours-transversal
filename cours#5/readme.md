@@ -1,7 +1,7 @@
 
 # Cours#5 : Moteurs, librairies, et semi-conducteurs
 
-![Buzzer circuit Arduino](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%234/images/buzzer-circuit.png?raw=true)
+![Servo Motor circuit Arduino](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%235/images/servo.png?raw=tru)
 
 ### 5.1 Moteur servo et librairie Servo 
 
@@ -39,5 +39,5 @@ Redémarre l’IDE si besoin, puis #include <NomDeLaLibrairie.h>.
 
 ### 5.2 Moteur DC et transistor (semi-conducteur)
 
-![DC circuit Arduino](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%235/images/servo.png?raw=true)
+![DC circuit Arduino](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%235/images/transistor_motor.png)
 
