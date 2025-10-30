@@ -66,3 +66,12 @@ Redémarre l’IDE si besoin, puis #include <NomDeLaLibrairie.h>.
 
 ![DC circuit Arduino](https://github.com/headpoolnumerique/machines-animees-cours-transversal/blob/main/cours%235/images/transistor_motor.png)
 
+***Pourquoi un transistor/MOSFET avec un moteur + pile 9 V + Arduino ?**
+
+Courant : un moteur tire bien plus que 40 mA (limite d’une broche Arduino). Le transistor/MOSFET agit comme interrupteur de puissance commandé par l’Arduino.  
+Tension séparée : on alimente le moteur par la pile 9 V, pas par l’Arduino.  
+Protection : le moteur est inductif → il génère des pics de tension. On met une diode de roue libre (ex. 1N4007) en parallèle du moteur (cathode côté +9 V) pour protéger tout le monde.  
+Masse commune : relier GND Arduino et – de la pile. À quoi ça sert concrètement ? — (1) À ce que l’Arduino mesure/commande des tensions cohérentes pour le transistor/MOSFET. (2) À stabiliser le fonctionnement et éviter déclenchements fantômes, resets, surchauffe.
+
+
+
