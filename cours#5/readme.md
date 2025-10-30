@@ -11,11 +11,27 @@ Un moteur servo peut se déplacer à l'ordre de position via une impulsion et se
 
 Un ensemble de code réutilisable qu'apporte des fonctionnalités prêtes à l’emploi, testées et documentées.
 
-***Pourquoi utiliser Servo.h avec un servo ?***
+***Pourquoi utiliser une librairie Servo.h avec un servo ?***
 
 Parce qu’un servo n’a pas besoin d’un PWM “classique”, mais d’impulsions très précises (≈1–2 ms, toutes ~20 ms). Servo.h :
 génère ces impulsions au timing beaucoup plus régulier que delay() ou analogWrite()), et simplifie l'usage grâce à une série de fonctions pre-écrites : attach(), write(angle), writeMicroseconds(), detach(),
 
+***Comment inlcure une librairie ?***
+1) Reprendre depuis un code exemple : File > examples > [nom de la librairie] > [example souhaité]
+2) Inclure juste la librairie : Sketch > Include library > [nom de la librairie]  
 
-![Servo motor circuit Arduino]()
+***Comment installer une librairie ?***
+
+1) Par le Library Manager (recommandé) :  
+Sketch ▸ Include Library ▸ Manage Libraries  
+Dans le code : #include <NomDeLaLibrairie.h>  
+
+2) Depuis un fichier .zip (i.e. téléchargé depuis GitHub, etc.)
+Sketch ▸ Include Library ▸ Add .ZIP Library  
+Sélectionne le .zip téléchargé.  
+Dans le code : #include <NomDeLaLibrairie.h>  
+
+3) Installation manuelle
+Décompresse la librairie dans Documents/Arduino/libraries/[librairie]/
+Redémarre l’IDE si besoin, puis #include <NomDeLaLibrairie.h>.
 
