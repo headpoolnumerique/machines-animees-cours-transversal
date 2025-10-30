@@ -73,5 +73,23 @@ Redémarre l’IDE si besoin, puis #include <NomDeLaLibrairie.h>.
 **— Protection** : le moteur est inductif → il génère des pics de tension. On met une diode de roue libre (ex. 1N4007) en parallèle du moteur (cathode côté +9 V) pour protéger tout le monde.  
 **— Masse commune** : relier GND Arduino et – de la pile. À quoi ça sert concrètement ? — (1) À ce que l’Arduino mesure/commande des tensions cohérentes pour le transistor/MOSFET. (2) À stabiliser le fonctionnement et éviter déclenchements fantômes, resets, surchauffe.
 
+Exemple simple :  
+```
+const int PWM_PIN = 9;
+void setup() { pinMode(PWM_PIN, OUTPUT); }
+void loop()  { digitalWrite(PWM_PIN, HIGH); /* ... */ }
+```
 
+Exemple avec potentiometre :  
+```
+const int PWM_PIN = 9;   // broche ~PWM vers la gate
+const int POT     = A0;  // potentiomètre
 
+void setup() { pinMode(PWM_PIN, OUTPUT); }
+
+void loop() {
+  int v = analogRead(POT);           // 0..1023
+  int duty = map(v, 0, 1023, 0, 255);
+  analogWrite(PWM_PIN, duty);        // vitesse du moteur
+}
+```
