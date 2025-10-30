@@ -39,7 +39,7 @@ Session #3 — Arduino : inputs et outputs
 Session #4 — Entrées analogiques et sorties 'analogiques' (~ - PWM), variables  
 [Documentation Session #4](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%234)  
 
-Session #5 — Moteurs, librairies, et semi-conducteurs
+Session #5 — Moteurs, librairies, et semi-conducteurs  
 [Documentation Session #5](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%235)  
 
 Sessions #6-11 — Labo ; travail en duo  
