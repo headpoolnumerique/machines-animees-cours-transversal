@@ -15,6 +15,7 @@ Cours 1 – 5 : Introduction à l'Arduino
 Lors de ces cinq premières sessions, vous découvrirez les bases de la programmation et d'électronique en utilisant le microcontrolleur Arduino. Vous apprendrez à concevoir des circuits électroniques et des projets interactifs en assimilant les concepts fondamentaux du langage de programmation C++. 
 
 Cours 6 – 11 : Développement du projet en solo ou en binôme  
+  
 Dans la seconde partie du cours, vous intégrerez les connaissances acquises dans un projet à choix.  
 
 ## ÉVALUATION
@@ -27,8 +28,7 @@ Les connaissances acquises durant le cours devront s’y refléter.
 
 ## RENDU FINAL
 
-Un objet ou une installation en lien avec la thématique, réalisé en équipe de 2,
-ou un projet solo, plus complex et à long terme (par exemple un projet de diplôme) intégrant les compétences acquises au cours du cursus. 
+Un objet ou une installation en lien avec la thématique, réalisé en solo ou en équipe de 2.
 À rendre pour le cours n°11 (19 décembre 2026).
 
 ## PRÉSENCE
@@ -55,6 +55,6 @@ Session #4 — Entrées analogiques et sorties 'analogiques' (~ - PWM), variable
 Session #5 — Moteurs, librairies, et semi-conducteurs  
 [Documentation Session #5](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%235)  
 
-Sessions #6-11 — Labo ; travail en duo  
-Session #12 — Présentation et goûter de Noël  
+Sessions #6-11 — Laboratoir ; travail en solo ou en duo sous supervision. 
+Session #12 — Présentation finale
 
