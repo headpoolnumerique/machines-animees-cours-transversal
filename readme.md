@@ -9,14 +9,26 @@ Vendredis, 14:30 – 17:30
 
 ——
 
+## STRUCTURE GÉNÉRALE
+Cours 1 – 5 : Introduction à l'arduino
+
+Lors de ces cinq premières sessions, vous découvrirez les bases de la programmation et d'électronique en utilisant le microcontrolleur Arduino. Vous apprendrez à concevoir des circuits électroniques et des projets interactifs en assimilant les concepts fondamentaux du langage de programmation C++. 
+
+Cours 6 – 11 : Développement du projet en solo ou en binôme
+Dans la seconde partie du cours, vous intégrerez les connaissances acquises dans un projet à choix. 
+
 ## ÉVALUATION
 
+Les étudiant·e·x·s seront évalué·e·x·s selon les critères suivants :
+​
+Projet final individuel ou en binôme : 100 % de la note.​
 Le projet final sera évalué en fonction de son rapport à la thématique. Les connaissances acquises durant le cours devront s’y refléter.
 
 ## RENDU FINAL
 
 Un objet ou une installation en lien avec la thématique, réalisé en équipe de 2,
 ou un projet solo, plus complex et à long terme (par exemple un projet de diplôme) intégrant les compétences acquises au cours du cursus. 
+À rendre pour le cours n°11 (19 décembre 2026).
 
 ## PRÉSENCE
 
