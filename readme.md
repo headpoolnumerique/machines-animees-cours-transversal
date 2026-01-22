@@ -19,10 +19,11 @@ Dans la seconde partie du cours, vous intégrerez les connaissances acquises dan
 
 ## ÉVALUATION
 
-Les étudiant·e·x·s seront évalué·e·x·s selon les critères suivants :
+Les étudiant·e·x·s seront évalué·e·x·s selon les critères suivants :  
 ​
-Projet final individuel ou en binôme : 100 % de la note.​
-Le projet final sera évalué en fonction de son rapport à la thématique. Les connaissances acquises durant le cours devront s’y refléter.
+Projet final individuel ou en binôme : 100 % de la note.  ​
+Le projet final sera évalué en fonction de son rapport à la thématique.  
+Les connaissances acquises durant le cours devront s’y refléter.  
 
 ## RENDU FINAL
 
