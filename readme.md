@@ -10,12 +10,12 @@ Vendredis, 14:30 – 17:30
 ——
 
 ## STRUCTURE GÉNÉRALE
-Cours 1 – 5 : Introduction à l'arduino
+Cours 1 – 5 : Introduction à l'Arduino
 
 Lors de ces cinq premières sessions, vous découvrirez les bases de la programmation et d'électronique en utilisant le microcontrolleur Arduino. Vous apprendrez à concevoir des circuits électroniques et des projets interactifs en assimilant les concepts fondamentaux du langage de programmation C++. 
 
-Cours 6 – 11 : Développement du projet en solo ou en binôme
-Dans la seconde partie du cours, vous intégrerez les connaissances acquises dans un projet à choix. 
+Cours 6 – 11 : Développement du projet en solo ou en binôme  
+Dans la seconde partie du cours, vous intégrerez les connaissances acquises dans un projet à choix.  
 
 ## ÉVALUATION
 
