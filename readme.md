@@ -55,6 +55,6 @@ Session #4 — Entrées analogiques et sorties 'analogiques' (~ - PWM), variable
 Session #5 — Moteurs, librairies, et semi-conducteurs  
 [Documentation Session #5](https://github.com/headpoolnumerique/machines-animees-cours-transversal/tree/main/cours%235)  
 
-Sessions #6-11 — Laboratoir ; travail en solo ou en duo sous supervision. 
+Sessions #6-11 — Laboratoire ; travail en solo ou en duo sous supervision. 
 Session #12 — Présentation finale
 
